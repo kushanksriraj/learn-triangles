@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color : #10B981;
+  --secondary-color : #EF4444;
+}
+
+body {
+
+  background-color: #110f29;
+  /* https://www.heropatterns.com/ */
+    /* CC BY 4.0 */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2310b981' fill-opacity='0.1'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  
+  font-family: 'Megrim', cursive;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin: auto;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: larger;
+}
+
+nav ul li {
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: inline;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: 'Megrim', cursive;
+  margin: 1rem 0.5rem;
+}
+
+input {
+  margin: 0 0.5rem;
+  max-width: 3rem;
+  min-height: 1.3rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  background-color: #110f29;
+  color: white;
+}
+
+.question {
+  color: white;
+  border: 2px solid var(--primary-color);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.question .question-label {
+  margin-bottom: 1.5rem;
+}
+
+.question .result {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.question-prompt {
+  padding: 0.5rem;
+}
+
+select {
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #110f29;
+  color: white;
+}
+
+
+footer {
+  /* text-align: center; */
+  padding-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+
+}
